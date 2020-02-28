@@ -1,0 +1,40 @@
+.cats h1 {
+    color : red;
+}
+
+body {
+    background-color: #ddd;
+    padding: 0px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#gandalf {
+    position:relative;
+    height: 100%;
+    width:100%;
+}
+
+.nyan {
+    height : 5%;
+    width : 5%;
+}
+
+.bottomNyan {
+    position: absolute;
+    bottom: 10px;
+    height: 5%;
+    width: 5%;
+    left: -100px;
+}
+#gandalf img {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
